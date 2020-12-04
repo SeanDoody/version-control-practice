@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 function subtract(e) {
     const firstNumber = document.getElementById('firstNumber').value;
     const secondNumber = document.getElementById('secondNumber').value;
     let total = document.getElementById('total');
     total.value = (firstNumber - secondNumber);
 }
-=======
 function multiplyNumbers() {
     const num1 = document.getElementById("mult-num-1").value;
     const num2 = document.getElementById("mult-num-2").value;
@@ -32,4 +30,3 @@ function divideNumbers() {
     const sum = firstNo / secondNo;
     sumBox.value = sum;
 }
->>>>>>> main
